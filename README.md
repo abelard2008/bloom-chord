@@ -10,10 +10,10 @@ How to run bloom-chord
 	./runchord.sh
 	ruby test_chord.rb 127.0.0.1:88888 127.0.0.1:1111
 
-The first command will run 8 instances with different ports
+The first command will run 8 instances (or say nodes) with different ports
 and generate 8 log files about communitating message to each other , 
 the second will test the Chord ring with different ID, of
-course you can delete any one statnce to test ring's
+course you can add one statnce/node to test ring's
 integrity.
 
 
